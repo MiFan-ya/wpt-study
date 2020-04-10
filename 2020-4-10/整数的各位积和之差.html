@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 力扣:
+给你一个整数 n，请你帮忙计算并返回该整数「各位数字之积」与「各位数字之和」的差。
+示例 1：
+输入：n = 234
+输出：15 
+解释：
+各位数之积 = 2 * 3 * 4 = 24 
+各位数之和 = 2 + 3 + 4 = 9 
+结果 = 24 - 9 = 15 -->
+    <p id="a"></p>
+    <script>
+        function a(n) {
+    n=n.toString().split("");
+    function a(x,y){return x*y;}
+    function b(x,y){return parseInt(x)+parseInt(y);}
+    var j=n.reduce(a);
+    var s=n.reduce(b); parseInt
+    return j-s; 
+};
+        var b = a(234);
+document.getElementById('a').innerHTML=b;
+    </script>
+</body>
+</html>
